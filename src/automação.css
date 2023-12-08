@@ -1,0 +1,103 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    
+}
+
+.cebecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    width: 100%;
+    height: 15%;
+}
+
+.cebecalho h1{
+    margin: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.lista-cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: auto;
+}
+
+.logo{
+    color: white;
+    margin-right: 10px;
+    transition: transform .5s;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+}
+
+.imagem{
+   display: flex;
+   flex-direction: row;
+
+}
+
+.imagem img{
+    margin: 1%;
+}
+.imagem h1{
+    margin: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;     
+}
+.body h1{
+    margin-top : 100px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.body1 {
+    display: inline-flex;
+}
+
+.body1 img{
+    margin: 1%;
+    height: 25%;
+    width:25%;
+}
+.body1 h2{
+    margin-top:50px ;
+    margin: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.body3 h1{
+    margin-top : 100px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.body4 {
+    display: inline-flex;
+}
+
+.body4 img{
+    margin: 1%;
+    height: 25%;
+    width:25%;
+}
+.body4 h1{
+    margin-top:50px ;
+    margin: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
